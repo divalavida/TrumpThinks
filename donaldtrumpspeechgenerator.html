@@ -1,0 +1,90 @@
+<!-- donaldtrumpspeechgenerator.html
+
+
+
+make file of long donald trump speeech transcript string
+var text limit
+var question for donald trump (breaks these words into strings & adds to mix)
+
+(maybe something to pick who what when where why)
+
+make function that 
+
+	breaks every other word into a diff string (or everyother)
+	randomly generate complete sentence (limit set by user)
+end function
+
+offical seal. donald trump
+graphic, donald trump on side mid sentence left aligned
+	fady text section right aligned
+
+
+"With the influx of debates, it becomes harder and harder to keep with with the fan faire of this election. to quell this, I have complied a way to keep up to date with donald trumps views."
+
+search for word in speech and give sentence back
+
+random filler
+
+ask him a question
+
+answer
+
+scroll up
+
+
+ -->
+
+<html>
+<head>
+	<title>Donald Trump Thinks</title>
+	<script src="donaldtrumpspeechstring.js"></script>
+		<script type="text/javascript">
+		var name = prompt("What is your name?");
+		var topic= prompt("What does Donald Trump think of?");
+
+		for (i = 0; i<sentences.length; i++) {
+		sentences[i] = sentences[i].replace(/\$TOPIC/g,topic)	
+		}
+
+
+		// function random(min,max) {
+		// 	var number = Math.floor(Math.random()*max);
+		// 	return number;
+		// }
+		
+
+		function threeRandomNum(min,max) {
+			var arr = [];
+			while (arr.length < 3) {
+				var randomNum = Math.ceil(Math.random()*max-1)
+				var found = false;
+				for (var i=0;i<arr.length;i++){
+					if(arr[i]==randomNum){found=true;break}
+				}
+				if(!found)arr[arr.length]=randomNum
+			}
+			return (arr);
+		}
+
+		var openerNumArray = threeRandomNum(0,opener.length);
+
+		var sentencesNumArray = threeRandomNum(0,sentences.length);
+		var closerNumArray = threeRandomNum(0,closer.length);
+	
+
+		function answerToQuestion() {
+			return (opener[openerNumArray[0]] + " " + name + ". " + sentences[sentencesNumArray[0]] + " " + sentences[sentencesNumArray[1]]+ " " + sentences[sentencesNumArray[2]] + " "+ closer[closerNumArray[0]] );
+		}
+		document.write(answerToQuestion());
+
+		console.log(openerNumArray);
+		console.log(sentencesNumArray);
+		console.log(closerNumArray);
+
+	</script>
+</head>
+<body>
+
+
+</body>
+</html>
