@@ -17,7 +17,7 @@
 
 var opener = ["I'll tell you this, ","Listen ", "Let me be clear" , "So nice, thank you very much. That's really nice. Thank you, ", "Our country is in serious trouble ",
 "We don't have victories anymore, ", "When Mexico sends its people, they're not sending their best. They're not sending you, ", "Think of it, ", "Our enemies are getting stronger and stronger by the way, and we as a country are getting weaker, ", 
-"It's a disaster, ", "Here's what I think, ", "I'll tell you what,", "Now, our country needs - our country needs a truly great leader,", "We need a leader that wrote \"The Art of the Deal\”,",
+"It's a disaster, ", "Here's what I think, ", "I'll tell you what,", "Now, our country needs - our country needs a truly great leader,", "We need a leader that wrote \"The Art of the Deal\",",
 "We need a leader that can bring back our jobs,", "Our vets have been abandoned,","We need - we need somebody - we need somebody that literally will take this country and make it great again,",
 "We have people that aren't working, ","I'm going to tell you - thank you,", "We have people that aren't smart,", "You never saw anything like it,", "We have all the cards, but we don't know how to use them,",
 "Everybody thought the deal was dead,", "Let me give you the bad news,", "Now, here's what is going to happen,", "So under President Trump, here's what would happen,",
@@ -61,7 +61,7 @@ var sentences = [" I love the people that like $TOPIC.", "$TOPIC is really heade
 var closer = ["ok?","But I mean, look at the guy in that hat! I love that hat!", "I'll tell you that", "And I have to tell you I'm here, and very strongly here.", 
 "So that's the way it is.  Very simple. ", "So I would say that if I run and if I win, I would certainly start by building a very, very powerful border. ", 
 "I beat China all the time. All the time. ", "Thank you. It's true, and these are the best and the finest. ", "And it only makes common sense. ", "And it's got to stop and it's got to stop fast.",
-"Even our nuclear arsenal doesn't work.", "But you don't hear that from anybody else. You don't hear it from anybody else. And I watch the speeches.", "And that's what's happening. And it's going to get worse",
+"But you don't hear that from anybody else. You don't hear it from anybody else. And I watch the speeches.", "And that's what's happening. And it's going to get worse",
 "And we also need a cheerleader.", "And, I will tell you, I love my life. I have a wonderful family. They're saying, \"Dad, you're going to do something that's going to be so tough.\”",
 "I will be the greatest jobs president that God ever created. I tell you that.", "So we need people - I'm a free trader.", "That's the difference between China's leaders and our leaders.",
 "Believe me, folks. We will do very, very well, very, very well.", "But I wouldn't even waste my time with this one.", "And you say to yourself, \"How does that help us,\" right? \"How does that help us? Where is that good\”? It's not.",
