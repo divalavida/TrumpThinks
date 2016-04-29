@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Donald Trump Thinks</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script src="src/jquery.youtubebackground.js">
+    </script>
+	 <link rel ="stylesheet" type="text/css" href="styles/bootstrap-theme.css"/>
+	 <link rel ="stylesheet" type="text/css" href="styles/bootstrap.css"/>
+	 <link rel ="stylesheet" type="text/css" href="styles/main.css"/>
+	 <link href='https://fonts.googleapis.com/css?family=Work+Sans:900,600,400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+    <div id="video">
+        <div class="pattern">
+            <div id="trumpThinks">
+                TRUMP THINKS
+            </div>
+
+                 <section class="textSection">
+                    We all know what Donald J. Trump
+                    thinks about China, <br> but what does he think about lollipops? <br><p> Find out what TRUMP THINKS! </p><br>
+
+                    <a href="trumpthinks.html"><button type="button" class="btn btn-primary btn-lg" id="getStartedButton">ASK</button></a>
+                </section>
+
+
+        </div>
+     </div>
+     <script type="text/javascript">
+        $('#video').YTPlayer({
+            fitToBackground: true,
+            videoId: 'RDrfE9I8_hs',
+            playerVars: {
+              modestbranding: 0,
+              autoplay: 1,
+              controls: 0,
+              showinfo: 0,
+              branding: 0,
+              rel: 0,
+              autohide: 0,
+              start: 59
+            }
+        });
+    </script>
+</body>
+</html>
