@@ -1,6 +1,6 @@
 
 var name = prompt("What is your name?");
-var topic= prompt("What does Donald Trump think of?");
+var topic= prompt("What does Donald Trump think of _________ ?");
 
 for (i = 0; i<sentences.length; i++) {
 sentences[i] = sentences[i].replace(/\$TOPIC/g,topic)	

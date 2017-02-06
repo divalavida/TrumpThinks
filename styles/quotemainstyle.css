@@ -13,3 +13,23 @@ body {
 	color: white;
 	font-size: 3em;
 }
+
+.icon {
+	width: 1em;
+	height: 1em;
+	text-align: center;	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.quotespace {
+	padding-left: 1em;
+}
