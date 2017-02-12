@@ -1,4 +1,4 @@
-	var numOfBackgrounds = 20;
+	var numOfBackgrounds = 30;
 	var n = Math.floor((Math.random() * numOfBackgrounds) + 1);
 	document.body.style.backgroundImage = "url('bg/"+n+".jpg')";
 

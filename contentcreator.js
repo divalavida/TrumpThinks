@@ -27,7 +27,6 @@ function threeRandomNum(min,max) {
 }
 
 var openerNumArray = threeRandomNum(0,opener.length);
-
 var sentencesNumArray = threeRandomNum(0,sentences.length);
 var closerNumArray = threeRandomNum(0,closer.length);
 
@@ -37,7 +36,7 @@ function answerToQuestion() {
 }
 
 var elem = document.getElementById("trumpTxtResponse");
-elem.innerHTML = (answerToQuestion());
+elem.innerHTML = (answerToQuestion().toUpperCase());
 
 console.log(openerNumArray);
 console.log(sentencesNumArray);

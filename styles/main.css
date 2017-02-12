@@ -1,3 +1,7 @@
+body {
+	font-family: 'Open Sans' , sans-serif;
+}
+
 #video{
  position: relative;
  background: transparent;
@@ -51,17 +55,18 @@
 
 #trumpThinks{
 	text-align: center;
-	font-family: 'Work Sans', font-weight: 900;
-	font-weight: bold;
-	font-size: 110px;
-	padding-top: 2.3em;
+	font-family: 'Work Sans';
+	font-weight: 900;
+	font-size: 6em;
 	color: white; 
+	padding-top: 10%;
 
 }
 
 .textSection {
 	/*background:linear-gradient(-90deg, #5B6290,#2b325f, #5B6290);*/
-	font-family: 'Work Sans', font-weight: 900; 
+	font-family: 'Work Sans';
+	font-weight: 600; 
 	color: white;
 	padding: 10px;
 	font-size: 30px;
