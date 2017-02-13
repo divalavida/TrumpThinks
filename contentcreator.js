@@ -1,6 +1,14 @@
 
-var name = prompt("What is your name?");
-var topic= prompt("What does Donald Trump think of _________ ?");
+var name = getUrlParameter('name');
+var topic= getUrlParameter('topic');
+
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};
+
 
 for (i = 0; i<sentences.length; i++) {
 sentences[i] = sentences[i].replace(/\$TOPIC/g,topic)	
