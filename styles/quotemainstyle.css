@@ -57,10 +57,12 @@ h1 {
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
-
-#socialmedia {	
-
-
+	
+.socialmedia {
+	background-color: white;
+	padding-bottom: none;
+	position: fixed; 
+	bottom: 0;
 }
 
 
