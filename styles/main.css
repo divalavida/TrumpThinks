@@ -30,7 +30,7 @@ body {
 	font-weight: 900;
 	font-size: 6em;
 	color: white; 
-	padding-top: 10%;
+	padding-top: 7%;
 
 }
 
@@ -82,10 +82,11 @@ a:hover {
 
 .socialmedia {
 /*	background-color: white;*/
-	padding-bottom: 1em;
-	padding-top: 1em;
+/*	padding-bottom: 1em;
+	
 	position: fixed; 
-	bottom: 0;
+	bottom: 0;*/
+	padding-top: 2em;
 	vertical-align: middle;
 	text-align: center;
 }
