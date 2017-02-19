@@ -4,6 +4,16 @@ body {
 	font-family: 'Open Sans' , sans-serif;
 }
 
+@media (max-width: 500px) {
+{ body {
+		background: url(‘bg/17.jpg’) no-repeat 50% 50% fixed;
+		background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-webkit-background-size: cover;
+	   }
+}}
+
 #video{
  position: relative;
  background: transparent;
@@ -93,6 +103,8 @@ a:hover {
 
 .yellowbutton {
 	background-color: #ddb36a; /* trumphairyellow */
+	margin-top: 3em;
+	margin-bottom: 1em;
 }
 
 

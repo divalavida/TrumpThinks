@@ -1,16 +1,3 @@
-
-// var sentences = [" I love the people of Iowa.","Our country is really headed in the wrong direction with a president who is doing an absolutely terrible job.",
-//  "The world is collapsing around us, and many of the problems we've caused.", "Washington is broken, and our country is in serious trouble and total disarray.", 
-//  "And I'm a conservative, actually very conservative, and I'm a Republican.", "Now everything about Obamacare was a lie.", "Now, we have to build a fence.  And it's got to be a beauty.",
-//  "Who can build better than Trump?", "You can have anything coming across the border.", "Again, the politicians talk about it and they do nothing about it.",
-//  " I get sued all the time, okay.  I run a big business.", "We used to have victories, but we don't have them. ", "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us.",
-//  "I beat China all the time. All the time.", "When was the last time you saw a Chevrolet in Tokyo? It doesn't exist, folks.  ", "The U.S. has become a dumping ground for everybody else's problems." ,
-//  "It's coming from more than Mexico. It's coming from all over South and Latin America, and it's coming probably - probably - from the Middle East.", "So now ISIS has the oil, and what they don't have, Iran has.",
-//  "And I will tell you this, and I said it very strongly, years ago, I said - and I love the military, and I want to have the strongest military that we've ever had, and we need it more now than ever.",
-//  "We have wounded soldiers, who I love, I love - they're great - all over the place, thousands and thousands of wounded soldiers.", "We have a disaster called the big lie: Obamacare. Obamacare.",
-//  "Yesterday, it came out that costs are going for people up 29, 39, 49, and even 55 percent, and deductibles are through the roof. You have to be hit by a tractor, literally, a tractor, to use it, because the deductibles are so high. ",
-//  "When was the last time you heard China is killing us?", "I watched our police and our firemen down at 7/11, down at the World Trade Center right after it came down."] 
-
 // citation
 // http://on.wsj.com/1IjbPUU
 
@@ -29,26 +16,26 @@ var opener = ["I'll tell you this, ","Listen ", "Let me be clear" , "So nice, th
 
 var sentences = [" I love the people that like $TOPIC.", "$TOPIC is really headed in the wrong direction with a president who is doing an absolutely terrible job.",
  "$TOPIC are collapsing around us, and many of the problems we've caused.", "Washington is broken, and $TOPIC is in serious trouble and total disarray.", 
- "And I'm a conservative, actually very conservative, and I'm a Republican.", "Now everything about $TOPIC was a lie.", "Now, we have to build a fence for $TOPIC.  And it's got to be a beauty.",
+ "And I'm a conservative, actually very conservative, and I'm a Republican.", "Now everything about $TOPIC was a lie.", "Now, we have to build a fence for $TOPIC. And it's got to be a beauty.",
  "Who can build better $TOPIC than Trump?", "You can have $TOPIC coming across the border.", "Again, the politicians talk about $TOPIC and they do nothing about it.",
  " I get sued all the time, okay.  I run a big business.", "We used to have victories, but we don't have them. ", "When was the last time anybody saw us beating, let's say, China in a $TOPIC deal? They kill us.",
- "I beat China all the time. All the time.", "When was the last time you saw $TOPIC in Tokyo? It doesn't exist, folks.  ", "The U.S. has become a dumping ground for everybody else's $TOPIC." ,
- "$TOPIC is coming from more than Mexico. It's coming from all over South and Latin America, and it's coming probably - probably - from the Middle East.", "So now ISIS has the $TOPIC, and what they don't have, Iran has.",
- "And I will tell you this, and I said it very strongly, years ago, I said - and I love the military, and I want to have the strongest military that we've ever had, so we need $TOPIC more now than ever.",
+ "I beat China all the time. All the time.", "When was the last time you saw $TOPIC in Tokyo? It doesn't exist, folks.", "The U.S. has become a dumping ground for everybody else's $TOPIC." ,
+ "$TOPIC is coming from more than Mexico.", "$TOPIC is coming from all over South and Latin America, and it's coming probably - probably - from the Middle East.", "So now ISIS has the $TOPIC, and what they don't have, Iran has.",
+ "And I will tell you this, and I said it very strongly, years ago, I said - and I love $TOPIC.","I want to have the strongest military that we've ever had, so we need $TOPIC more now than ever.",
  "We have wounded $TOPIC, who I love, I love - they're great - all over the place, thousands and thousands of wounded $TOPIC.", "We have a disaster called the big lie: $TOPIC. $TOPIC.",
- "Yesterday, it came out that costs are going up for $TOPIC up 29, 39, 49, and even 55 percent, and deductibles are through the roof. You have to be hit by a tractor, literally, a tractor, to use it, because the price of $TOPIC are so high. ",
- "When was the last time you heard China is killing us?", "I watched our police and our firemen down at 7/11, down at the World Trade Center right after it came down.",
- "$TOPIC makes it impossible for our companies to compete, impossible. They're killing us.", "And people are saying, \"What's going on? I just want a $TOPIC. Just get me a $TOPIC. I don't need the rhetoric. I want a $TOPIC.\"",
+ "Yesterday, it came out that costs are going up for $TOPIC up 29, 39, 49, and even 55 percent, and deductibles are through the roof.", "When was the last time you heard $TOPIC is killing us?", 
+ "I watched our police and our firemen down at 7/11, down at the World Trade Center right after it came down.", "$TOPIC makes it impossible for our companies to compete, impossible. They're killing us.", 
+ "And people are saying, \"What's going on? I just want a $TOPIC. Just get me a $TOPIC. I don't need the rhetoric. I want a $TOPIC.\"",
  "Hey, I have $TOPIC. I have to tell you.", "$TOPIC have been abandoned.", "We need somebody that can take the brand of $TOPIC and make it great again. It's not great again.",
  "I'll bring back our $TOPIC from China, from Mexico, from Japan, from so many places.", "I'll bring back our $TOPIC, and I'll bring back our money.", "Our president doesn't have a clue. He's a bad negotiator.",
  "$TOPIC can be wonderful if you have smart people, but we have people that are stupid.", "But with all our problems with $TOPIC, with all our problems with everything - everything, they got away with it again.",
- "And, you know, China comes over and they dump all their $TOPIC, and I buy it. I buy it, because, frankly, I have an obligation to buy it, because they devalue their currency so brilliantly, they just did it recently, and nobody thought they could do it again.",
+ "And, you know, China comes over and they dump all their $TOPIC, and I buy it. I buy it, because, frankly, I have an obligation to buy it.",
  "They wanted $TOPIC secrets.", "Hey, I'm not saying they're stupid. I like $TOPIC.", "I sell apartments for - I just sold an apartment for $15 million to a $TOPIC", "I love $TOPIC. People say, \"Oh, you don't like $TOPIC?\"",
  "$TOPIC, you go there now, roads, bridges, schools, you never saw anything like it.", "China have $TOPIC that make the George Washington Bridge look like small potatoes. And they're all over the place.",
  "Now China is going militarily. They're building a $TOPIC island in the mid $2.5 billion $TOPIC factory in Mexico and that you're going to take your $TOPIC and sell them to the United States zero tax, just flow them across the border.\"",
  "I don't need anybody's $TOPIC. It's nice. I don't need anybody's $TOPIC.", "We got $TOPIC that  needs equipment all over the place.", "We got $TOPIC weapons that are obsolete.",
  "We've got $TOPIC that's going to be destroyed if somebody like me doesn't bring money into the country.", "$TOPIC, they make $1 billion a day. $1 billion a day.",
- "Do you really think that these people are interested in $TOPIC?", "$TOPIC without us is gone.",        "$TOPIC is in big, big trouble", "I've employed - I've employed tens of thousands of $TOPIC over my lifetime.", 
+ "Do you really think that these people are interested in $TOPIC?", "$TOPIC without us is gone.","$TOPIC is in big, big trouble", "I've employed - I've employed tens of thousands of $TOPIC over my lifetime.", 
  "It's $TOPIC. You know, it's $TOPIC.", "In fact, one of the big banks came to me and said, \"Donald, you don't have enough $TOPIC. Could we loan you 4 billion $TOPIC\"? I said, \"I don't need it. I don't want it. And I've been there. I don't want it.\"",
  "I would build a great $TOPIC, and nobody builds $TOPIC better than me, believe me, and I'll build them very inexpensively, I will build a great, great $TOPIC on our southern border. And I will have Mexico pay for that $TOPIC.", 
  "Nobody would be tougher on $TOPIC than Donald Trump. Nobody.", "I will stop Iran from getting $TOPIC. And we won't be using a man like Secretary Kerry that has absolutely no concept of negotiation, who's making a horrible and laughable deal, who's just being tapped along as they make weapons right now, and then goes into a bicycle race at 72 years old, and falls and breaks his leg. I won't be doing that. And I promise I will never be in a bicycle race. That I can tell you.",
@@ -69,6 +56,6 @@ var closer = ["ok?","But I mean, look at the guy in that hat! I love that hat!",
 "So, just to sum up, I would do various things very quickly.", "That I can tell you.", "Nobody can do that like me. Believe me. It will be done on time, on budget, way below cost, way below what anyone ever thought.",
 "We got it.", "But if I get elected president I will bring it back bigger and better and stronger than ever before, and we will make America great again.",
 "Thank you all very much. Thank you. Thank you. Thank you. Thank you. Thank you very much. Thank you. Beautiful. Thank you.","Their victories have not been your victories.","And I always said, in addition to that, keep the oil.",
-"Do you agree with that?  What do you think? ", ""]
+"Do you agree with that?  What do you think? ",]
 
 
