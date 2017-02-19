@@ -1,9 +1,4 @@
-.socialmedia {
-	background-color: white;
-	padding-bottom: none;
-	position: fixed; 
-	bottom: 0;
-}
+
 
 body {
 	font-family: 'Open Sans' , sans-serif;
@@ -85,7 +80,15 @@ a:hover {
 }
 
 
-
+.socialmedia {
+/*	background-color: white;*/
+	padding-bottom: 1em;
+	padding-top: 1em;
+	position: fixed; 
+	bottom: 0;
+	vertical-align: middle;
+	text-align: center;
+}
 
 
 
