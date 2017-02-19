@@ -4,7 +4,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-size: 3em;
+	font-size: 300%;
 	font-weight: 700;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -43,7 +43,7 @@ a:hover {
 
 
 .col-md-6 {
-	text-align: center;
+	text-align: left;
 }
 
 h1 {
@@ -63,9 +63,15 @@ h1 {
 	padding-bottom: 1em;
 	padding-top: 1em;
 	position: fixed; 
-	bottom: 0;
+/*	bottom: 0;*/
 	vertical-align: middle;
 	text-align: center;
+}
+
+.yellowbutton {
+	background-color: #ddb36a; /* trumphairyellow */
+	margin-top: 3em;
+	margin-bottom: 1em;
 }
 
 

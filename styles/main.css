@@ -5,13 +5,12 @@ body {
 }
 
 @media (max-width: 500px) {
-{ body {
+{ body
 		background: url(‘bg/17.jpg’) no-repeat 50% 50% fixed;
 		background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-webkit-background-size: cover;
-	   }
 }}
 
 #video{
@@ -106,8 +105,6 @@ a:hover {
 	margin-top: 3em;
 	margin-bottom: 1em;
 }
-
-
 
 
 

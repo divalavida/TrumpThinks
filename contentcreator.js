@@ -40,7 +40,7 @@ var closerNumArray = threeRandomNum(0,closer.length);
 
 
 function answerToQuestion() {
-	return ("\" " + opener[openerNumArray[0]] + " " + name + ". " + sentences[sentencesNumArray[0]] + " " + sentences[sentencesNumArray[1]]+ " " + sentences[sentencesNumArray[2]] + " "+ closer[closerNumArray[0]] + "\" "  );
+	return ("\" " + opener[openerNumArray[0]] + " " + name + ". <br><br>" + sentences[sentencesNumArray[0]] + " " + sentences[sentencesNumArray[1]]+ " " + sentences[sentencesNumArray[2]] + " "+ closer[closerNumArray[0]] + "\" "  );
 }
 
 var elem = document.getElementById("trumpTxtResponse");
