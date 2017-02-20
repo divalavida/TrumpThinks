@@ -4,7 +4,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-size: 300%;
+	font-size: 250%;
 	font-weight: 700;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -44,13 +44,14 @@ a:hover {
 
 .col-md-6 {
 	text-align: left;
+	margin-left: 3em;
 }
 
 h1 {
 	font-size: 2em;
 	font-family: 'Open Sans' , 'sans-serif';
 	font-weight: 900;
-	padding-top: 2em;
+	padding-top: 1.5em;
 }
 
 #quotearea {
@@ -64,14 +65,15 @@ h1 {
 	padding-top: 1em;
 	position: fixed; 
 /*	bottom: 0;*/
-	vertical-align: middle;
-	text-align: center;
 }
 
 .yellowbutton {
 	background-color: #ddb36a; /* trumphairyellow */
 	margin-top: 3em;
 	margin-bottom: 1em;
+/*	margin-left: 4em;*/
+/*	margin-left: 11em;*/
+
 }
 
 
